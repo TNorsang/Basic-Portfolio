@@ -1,0 +1,155 @@
+/* Top background Box  */
+.box {
+    background-color: white;
+    width: 2000px;
+    height: 100px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 2px rgb(58, 58, 58)
+
+}
+
+/* My Name */
+h1 {
+    text-align: center;
+    line-height: 95px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    width: 300px;
+    height: 100px;
+    position: fixed;
+    left: 350px;
+    top: -21px;
+    z-index: 1;
+}
+
+/* Background Color */
+body {
+    background-color: Gray;
+}
+
+/* Footer 'Copyright'*/
+
+footer {
+    text-align: center;
+    line-height: 90px;
+    color: white;
+    background-color: rgb(80, 80, 80);
+    width: 2000px;
+    height: 100px;
+    position: absolute;
+    left: 0px;
+    top: 903px;
+
+}
+/* about me box */
+.aboutmebox {
+    background-color: white;
+    width: 960px;
+    height: 600px;
+    position: relative;
+    left: 351px;
+    top: 130px;
+}
+/* About Me Text and Box */
+#p01 {
+    color: #4aaaa5;
+    font-size: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    left: 63px;
+    top: 12px;
+}
+/* Line under ABOUT ME */
+hr { 
+    color: gray;
+    position: relative;
+    left: -1px;
+    top: 80px;
+    width: 850px;
+}
+/* Self portrait Image */
+
+img {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 50px;
+    top: 120px;
+    float: left;
+}
+/* Paragraph Text */
+#p02 {
+    color: gray;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: absolute;
+    top: 127px;
+    left: 324px;
+}
+
+#p03 {
+    color: gray;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    position: absolute;
+    top: 380px;
+    left: 50px;
+}
+/* About page button */
+#about {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    z-index: 1;
+    color: gray;
+    position: fixed;
+    left: 1076px;
+    top: 26px;
+}
+/* Portfolio page button */
+#portfolio {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    z-index: 1;
+    color: gray;
+    position: fixed;
+    left: 1163px;
+    top: 26px;
+}
+/* Contact page button */
+#contact {
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    z-index: 1;
+    color: gray;
+    position: fixed;
+    left: 1257px;
+    top: 26px;
+}
+
+
+/* About Vertical Line */
+
+.vl {
+    border-left: 1px solid rgb(243, 243, 243);
+    height: 22px;
+    position: fixed;
+    left: 1139px;
+    top: 40px;
+    z-index: 1;
+}
+
+/* Portfolio Vertical Line */
+
+.vertical2 {
+    border-left: 1px solid rgb(243, 243, 243);
+    height: 22px;
+    position: fixed;
+    left: 1240px;
+    top: 40px;
+    z-index: 1;
+}
+
+
+a:link {
+    text-decoration: gray;
+}
+
+
