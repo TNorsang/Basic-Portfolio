@@ -27,9 +27,9 @@ h1{
 
 
 
-/* Background Color */
+/* body  */
 body{
-    background-color: Gray;
+    background: url('../images/background.png') repeat;
     margin:auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
